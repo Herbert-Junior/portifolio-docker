@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  portifolio-docker:
+    image: httpd:2.4
+    ports:
+      - 3000:80
+    volumes:
+      - ./build/:/usr/local/apache2/htdocs/

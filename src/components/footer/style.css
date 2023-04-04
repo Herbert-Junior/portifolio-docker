@@ -1,0 +1,31 @@
+#loading-container {
+    position: absolute;
+    left: calc(50% - 25px);
+    top: 30%;
+  }
+
+  #loading-icon {
+    position: absolute;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color:red;
+    animation: loading-animation 3s infinite;
+  }
+
+  @keyframes loading-animation {
+  0%{          
+      color:red;
+      transform: rotate(0deg);
+  }
+  50%{
+      color:orange;
+      transform: rotate(360deg);
+  }
+  100%{
+      color:red;
+      transaform: rotate(720deg);
+  }
+
+  }

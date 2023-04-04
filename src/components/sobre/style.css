@@ -1,0 +1,28 @@
+.meImg{
+    width: 200px;
+    height: 300px;
+    margin: 2vh 0 2vh 0;
+}
+.cardMe{
+    display: flex;
+    flex-direction: row;
+}
+.cardBodyMe{
+    padding-top: 5vh;
+    text-align: justify;
+}
+
+@media (max-width: 768px){
+    .cardMe{
+        flex-wrap: wrap;
+    }
+    .meImg{
+        width: 200px;
+        height: 300px;
+        margin: 2vh auto 0vh;
+    }   
+    .cardBodyMe{
+        padding-top: 5vh;
+        text-align: inherit;
+    } 
+}

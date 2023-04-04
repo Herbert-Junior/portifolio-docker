@@ -1,0 +1,23 @@
+.projetosPessoaisImg{
+    width: 700px;
+    height: 200px;
+    margin: 2vh auto 2vh;
+}
+.cardProjetosPessoais{
+    display: flex;
+    flex-direction: column;
+}
+.cardBodyProjetosPessoais{
+    padding-top: 5vh;
+}
+
+@media (max-width: 768px){
+    .cardProjetosPessoais{
+        flex-wrap: wrap;
+    }
+    .projetosPessoaisImg{
+        width: 250px;
+        height: 100px;
+        margin: 2vh auto 0vh;
+    }    
+}
